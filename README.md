@@ -26,6 +26,24 @@ sudo apt-get install \
   htop curl vim iotop tree
 ```
 
+### Install Oh My ZSH
+
+Proin sagittis mauris nec interdum dapibus. Ut felis sapien, gravida eu commodo tempus, scelerisque non sapien. Sed finibus lacinia lorem, eget fringilla est ullamcorper quis.
+
+```
+$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+### Install Powerlevel10k
+
+Proin sagittis mauris nec interdum dapibus. Ut felis sapien, gravida eu commodo tempus, scelerisque non sapien. Sed finibus lacinia lorem, eget fringilla est ullamcorper quis.
+
+```
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
+```
+
+Set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`.
+
 ### Install my prefered editors
 
 Proin sagittis mauris nec interdum dapibus. Ut felis sapien, gravida eu commodo tempus, scelerisque non sapien. Sed finibus lacinia lorem, eget fringilla est ullamcorper quis.
@@ -34,6 +52,33 @@ Proin sagittis mauris nec interdum dapibus. Ut felis sapien, gravida eu commodo 
 sudo snap install code
 sudo snap install phpstorm
 ```
+
+## A custom XFCE setup
+
+Sed fringilla volutpat orci, in ultricies est eleifend et. Ut egestas placerat nulla, vitae sodales leo faucibus id. Integer rutrum fermentum porta. Donec commodo augue quis rhoncus interdum. In non vestibulum tellus.
+
+### Install Theme
+
+Proin sagittis mauris nec interdum dapibus. Ut felis sapien, gravida eu commodo tempus, scelerisque non sapien. Sed finibus lacinia lorem, eget fringilla est ullamcorper quis.
+
+```
+sudo apt update
+sudo apt install arc-theme
+```
+
+### Install Icons
+
+Proin sagittis mauris nec interdum dapibus. Ut felis sapien, gravida eu commodo tempus, scelerisque non sapien. Sed finibus lacinia lorem, eget fringilla est ullamcorper quis.
+
+- extract the `tar.xz` file into your `~/.icons/` folder - to install for current user only
+- extract the `tar.xz` file into `/usr/share/icons/` folder - for the icons and folders to be applied globally
+- use the GNOME Tweak Tool or an equivalent app to enable them for your desktop
+
+Aenean ut iaculis sem. Sed consectetur odio sit amet dictum auctor.
+
+- https://www.xfce-look.org/p/1166289/
+- https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/
+
 
 ## A fresh LAMP setup
 
