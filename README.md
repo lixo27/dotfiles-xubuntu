@@ -13,7 +13,7 @@ sudo apt-get update
 sudo apt-get upgrade
 ```
 
-### Install some really useful packages
+### Install useful packages
 
 Proin sagittis mauris nec interdum dapibus. Ut felis sapien, gravida eu commodo tempus, scelerisque non sapien. Sed finibus lacinia lorem, eget fringilla est ullamcorper quis.
 
@@ -26,7 +26,20 @@ sudo apt-get install \
   htop curl vim iotop tree
 ```
 
-### Install Oh My ZSH
+## My prefered editors
+
+Proin sagittis mauris nec interdum dapibus. Ut felis sapien, gravida eu commodo tempus, scelerisque non sapien. Sed finibus lacinia lorem, eget fringilla est ullamcorper quis.
+
+```
+sudo snap install code
+sudo snap install phpstorm
+```
+
+## My terminal experience
+
+Sed fringilla volutpat orci, in ultricies est eleifend et. Ut egestas placerat nulla, vitae sodales leo faucibus id. Integer rutrum fermentum porta. Donec commodo augue quis rhoncus interdum. In non vestibulum tellus.
+
+### Install Oh My ZSH!
 
 Proin sagittis mauris nec interdum dapibus. Ut felis sapien, gravida eu commodo tempus, scelerisque non sapien. Sed finibus lacinia lorem, eget fringilla est ullamcorper quis.
 
@@ -44,16 +57,7 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~
 
 Set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`.
 
-### Install my prefered editors
-
-Proin sagittis mauris nec interdum dapibus. Ut felis sapien, gravida eu commodo tempus, scelerisque non sapien. Sed finibus lacinia lorem, eget fringilla est ullamcorper quis.
-
-```
-sudo snap install code
-sudo snap install phpstorm
-```
-
-## A custom XFCE setup
+## A better XFCE Desktop looking and feel
 
 Sed fringilla volutpat orci, in ultricies est eleifend et. Ut egestas placerat nulla, vitae sodales leo faucibus id. Integer rutrum fermentum porta. Donec commodo augue quis rhoncus interdum. In non vestibulum tellus.
 
@@ -80,7 +84,7 @@ Aenean ut iaculis sem. Sed consectetur odio sit amet dictum auctor.
 - https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/
 
 
-## A fresh LAMP setup
+## A fresh LAMP/LAPP setup
 
 Sed fringilla volutpat orci, in ultricies est eleifend et. Ut egestas placerat nulla, vitae sodales leo faucibus id. Integer rutrum fermentum porta. Donec commodo augue quis rhoncus interdum. In non vestibulum tellus.
 
@@ -136,6 +140,10 @@ Proin sagittis mauris nec interdum dapibus. Ut felis sapien, gravida eu commodo 
 ```
 sudo apt install php libapache2-mod-php php-mysql php-pgsql php-zip
 ```
+
+## Required development tools
+
+Sed fringilla volutpat orci, in ultricies est eleifend et. Ut egestas placerat nulla, vitae sodales leo faucibus id. Integer rutrum fermentum porta. Donec commodo augue quis rhoncus interdum. In non vestibulum tellus.
 
 ### Install Composer
 
