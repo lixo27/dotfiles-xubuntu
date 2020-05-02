@@ -112,4 +112,7 @@ if [[ -f "${HOME}/.dotfiles/home/aliases/aliases.zsh" ]]; then
 fi
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+#[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+if [[ -f "${HOME}/.dotfiles/home/.p10k.zsh" ]]; then
+  source "${HOME}/.dotfiles/home/.p10k.zsh"
+fi
