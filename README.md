@@ -143,6 +143,16 @@ sudo apt update
 sudo apt install php libapache2-mod-php php-mysql php-pgsql php-zip
 ```
 
+## A LTS Node.js / JavaScript runtime
+
+
+Sed fringilla volutpat orci, in ultricies est eleifend et. Ut egestas placerat nulla, vitae sodales leo faucibus id. Integer rutrum fermentum porta. Donec commodo augue quis rhoncus interdum. In non vestibulum tellus.
+
+```
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt-get install nodejs
+```
+
 ## Required development tools
 
 Sed fringilla volutpat orci, in ultricies est eleifend et. Ut egestas placerat nulla, vitae sodales leo faucibus id. Integer rutrum fermentum porta. Donec commodo augue quis rhoncus interdum. In non vestibulum tellus.
@@ -177,4 +187,20 @@ Aenean ut iaculis sem. Sed consectetur odio sit amet dictum auctor.
 ```
 chmod +x wp-cli.phar
 sudo mv wp-cli.phar /usr/local/bin/wp
+```
+
+### Install Laravel
+
+Proin sagittis mauris nec interdum dapibus. Ut felis sapien, gravida eu commodo tempus, scelerisque non sapien. Sed finibus lacinia lorem, eget fringilla est ullamcorper quis.
+
+```
+composer global require laravel/installer
+```
+
+### Install Lumen
+
+Proin sagittis mauris nec interdum dapibus. Ut felis sapien, gravida eu commodo tempus, scelerisque non sapien. Sed finibus lacinia lorem, eget fringilla est ullamcorper quis.
+
+```
+composer global require laravel/lumen-installer
 ```
