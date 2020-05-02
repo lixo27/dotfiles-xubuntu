@@ -9,8 +9,8 @@ Sed fringilla volutpat orci, in ultricies est eleifend et. Ut egestas placerat n
 Sed fringilla volutpat orci, in ultricies est eleifend et. Ut egestas placerat nulla, vitae sodales leo faucibus id. Integer rutrum fermentum porta. Donec commodo augue quis rhoncus interdum. In non vestibulum tellus.
 
 ```
-sudo apt-get update
-sudo apt-get upgrade
+sudo apt update
+sudo apt upgrade
 ```
 
 ### Install useful packages
@@ -18,8 +18,8 @@ sudo apt-get upgrade
 Proin sagittis mauris nec interdum dapibus. Ut felis sapien, gravida eu commodo tempus, scelerisque non sapien. Sed finibus lacinia lorem, eget fringilla est ullamcorper quis.
 
 ```
-sudo apt-get update
-sudo apt-get install \
+sudo apt update
+sudo apt install \
   colordiff dos2unix gettext graphviz imagemagick \
   git-core subversion ngrep wget unzip zip \
   whois vim mcrypt bash-completion zsh \
@@ -102,6 +102,7 @@ sudo apt install apache2
 Proin sagittis mauris nec interdum dapibus. Ut felis sapien, gravida eu commodo tempus, scelerisque non sapien. Sed finibus lacinia lorem, eget fringilla est ullamcorper quis.
 
 ```
+sudo apt update
 sudo apt install mysql-server
 sudo mysql_secure_installation
 ```
@@ -138,6 +139,7 @@ sudo -u postgres psql
 Proin sagittis mauris nec interdum dapibus. Ut felis sapien, gravida eu commodo tempus, scelerisque non sapien. Sed finibus lacinia lorem, eget fringilla est ullamcorper quis.
 
 ```
+sudo apt update
 sudo apt install php libapache2-mod-php php-mysql php-pgsql php-zip
 ```
 
