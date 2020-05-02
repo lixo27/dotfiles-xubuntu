@@ -108,6 +108,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 if [[ -f "${HOME}/.dotfiles/home/aliases/aliases.zsh" ]]; then
+  source "${HOME}/.dotfiles/home/aliases/aliases-adminer.zsh"
+  source "${HOME}/.dotfiles/home/aliases/aliases-hope.zsh"
+  source "${HOME}/.dotfiles/home/aliases/aliases-mog.zsh"
   source "${HOME}/.dotfiles/home/aliases/aliases.zsh"
 fi
 
