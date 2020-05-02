@@ -2,11 +2,10 @@
 
 # -- adminer ------------------------------------------
 
-alias adminer-www="cd /var/www/mog.local"
+alias adminer-www="cd /var/www/adminer.local"
 
 # -- mog ----------------------------------------------
 
-# alias mog="cd /home/develop/Mog"
 alias mog-www="cd /var/www/mog.local"
 alias mog-code="mog && cd Code/"
 alias mog-rep="mog && cd Repositories/"
@@ -14,7 +13,6 @@ alias mog-res="mog && cd Resources/"
 
 # -- hope ---------------------------------------------
 
-# alias hope="cd /home/develop/Hope"
 alias hope-www="cd /var/www/hope.local"
 alias hope-code="hope && cd Code/"
 alias hope-rep="hope && cd Repositories/"
