@@ -23,8 +23,6 @@ Proin sagittis mauris nec interdum dapibus. Ut felis sapien, gravida eu commodo 
 	CustomLog ${APACHE_LOG_DIR}/access.log combined
 
 </VirtualHost>
-
-# vim: syntax=apache ts=4 sw=4 sts=4 sr noet
 ```
 
 Aenean ut iaculis sem. Sed consectetur odio sit amet dictum auctor.
@@ -50,6 +48,4 @@ Aenean ut iaculis sem. Sed consectetur odio sit amet dictum auctor.
 	CustomLog ${APACHE_LOG_DIR}/access.log combined
 
 </VirtualHost>
-
-# vim: syntax=apache ts=4 sw=4 sts=4 sr noet
 ```
