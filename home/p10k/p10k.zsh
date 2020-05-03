@@ -1,13 +1,7 @@
 #!/usr/bin/env zsh
 
-# -- maybe customize prompt ------------------------------
+# -- includes -------------------------------------------
+source "${HOME}/.dotfiles/home/p10k/p10k-default.zsh"
 
-if [[ -f "${HOME}/.p10k.zsh" ]]; then
-
-  source "${HOME}/.p10k.zsh"
-
-elif [[ -f "${HOME}/.dotfiles/home/.p10k.zsh" ]]; then
-
-  source "${HOME}/.dotfiles/home/.p10k.zsh"
-
-fi
+# -- lorem ipsum ------------------------------------------
+# -- nullam commodo ----------------------------------------
