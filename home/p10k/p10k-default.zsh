@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-# -- maybe load from user first ----------------------------
+# -- load from user first -----------------------------------
 
 if [[ -f "${HOME}/.p10k.zsh" ]]; then
 

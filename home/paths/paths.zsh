@@ -1,5 +1,7 @@
 #!/usr/bin/env zsh
 
-# -- composer ------------------------------------------
+# -- includes ----------------------------------------------
+source "${HOME}/.dotfiles/home/paths/paths-composer.zsh"
 
-export PATH="$HOME/.config/composer/vendor/bin:$PATH"
+# -- lorem ipsum -------------------------------------------
+# -- nullam commodo ----------------------------------------
