@@ -23,7 +23,7 @@ sudo apt install \
   colordiff dos2unix gettext graphviz imagemagick \
   git-core subversion ngrep wget unzip zip \
   whois vim mcrypt bash-completion zsh \
-  htop curl vim iotop tree
+  htop curl vim iotop tree gitk
 ```
 
 ## My prefered editors
