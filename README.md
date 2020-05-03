@@ -80,9 +80,18 @@ Proin sagittis mauris nec interdum dapibus. Ut felis sapien, gravida eu commodo 
 
 Aenean ut iaculis sem. Sed consectetur odio sit amet dictum auctor.
 
-- https://www.xfce-look.org/p/1166289/
-- https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/
+```
+cd $HOME/.icons
+git clone https://github.com/rtlewis88/rtl88-Themes.git
+cd $HOME/.icons/rtl88-Themes && git checkout Arc-ICONS
+```
 
+Aenean ut iaculis sem. Sed consectetur odio sit amet dictum auctor.
+
+```
+cd $HOME/.icons
+git clone https://github.com/PapirusDevelopmentTeam/papirus-icon-theme.git
+```
 
 ## A fresh LAMP/LAPP setup
 
