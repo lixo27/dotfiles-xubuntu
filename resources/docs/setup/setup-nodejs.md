@@ -7,14 +7,18 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt install nodejs
 ```
 
-Aenean ut iaculis sem. Sed consectetur odio sit amet dictum auctor.
+## Development tools for building native addons
+
+Proin sagittis mauris nec interdum dapibus. Ut felis sapien, gravida eu commodo tempus, scelerisque non sapien. Sed finibus lacinia lorem, eget fringilla est ullamcorper quis.
 
 ```
 sudo apt update
 sudo apt install gcc g++ make
 ```
 
-Aenean ut iaculis sem. Sed consectetur odio sit amet dictum auctor.
+## Install Yarn package manager
+
+Proin sagittis mauris nec interdum dapibus. Ut felis sapien, gravida eu commodo tempus, scelerisque non sapien. Sed finibus lacinia lorem, eget fringilla est ullamcorper quis.
 
 ```
 curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
