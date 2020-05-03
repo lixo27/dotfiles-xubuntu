@@ -44,7 +44,7 @@ Sed fringilla volutpat orci, in ultricies est eleifend et. Ut egestas placerat n
 Proin sagittis mauris nec interdum dapibus. Ut felis sapien, gravida eu commodo tempus, scelerisque non sapien. Sed finibus lacinia lorem, eget fringilla est ullamcorper quis.
 
 ```
-$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
 ### Install Powerlevel10k
@@ -93,6 +93,25 @@ cd $HOME/.icons
 git clone https://github.com/PapirusDevelopmentTeam/papirus-icon-theme.git
 ```
 
+## A LTS Node.js / JavaScript runtime
+
+
+Sed fringilla volutpat orci, in ultricies est eleifend et. Ut egestas placerat nulla, vitae sodales leo faucibus id. Integer rutrum fermentum porta. Donec commodo augue quis rhoncus interdum. In non vestibulum tellus.
+
+```
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt-get install nodejs
+```
+
+```
+sudo apt-get install gcc g++ make
+```
+
+```
+curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt-get update && sudo apt-get install yarn
+```
+
 ## A fresh LAMP/LAPP setup
 
 Sed fringilla volutpat orci, in ultricies est eleifend et. Ut egestas placerat nulla, vitae sodales leo faucibus id. Integer rutrum fermentum porta. Donec commodo augue quis rhoncus interdum. In non vestibulum tellus.
@@ -104,6 +123,12 @@ Proin sagittis mauris nec interdum dapibus. Ut felis sapien, gravida eu commodo 
 ```
 sudo apt update
 sudo apt install apache2
+```
+
+Aenean ut iaculis sem. Sed consectetur odio sit amet dictum auctor.
+
+```
+sudo a2enmod rewrite
 ```
 
 ### Install MySQL
@@ -150,16 +175,6 @@ Proin sagittis mauris nec interdum dapibus. Ut felis sapien, gravida eu commodo 
 ```
 sudo apt update
 sudo apt install php libapache2-mod-php php-mysql php-pgsql php-zip
-```
-
-## A LTS Node.js / JavaScript runtime
-
-
-Sed fringilla volutpat orci, in ultricies est eleifend et. Ut egestas placerat nulla, vitae sodales leo faucibus id. Integer rutrum fermentum porta. Donec commodo augue quis rhoncus interdum. In non vestibulum tellus.
-
-```
-curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-sudo apt-get install nodejs
 ```
 
 ## Required development tools
