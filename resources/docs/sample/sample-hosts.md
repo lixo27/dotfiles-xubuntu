@@ -9,3 +9,7 @@ Proin sagittis mauris nec interdum dapibus. Ut felis sapien, gravida eu commodo 
 
 127.0.0.1	adminer.local
 127.0.0.1	mog.local
+
+## ================================================================
+## -- my local hosts    # end
+## ================================================================
