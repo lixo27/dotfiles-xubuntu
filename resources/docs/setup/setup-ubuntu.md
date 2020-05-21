@@ -19,3 +19,14 @@ sudo apt install \
   whois vim mcrypt bash-completion zsh \
   htop curl vim iotop tree gitk
 ```
+
+## Install recommended PPA's
+
+Proin sagittis mauris nec interdum dapibus. Ut felis sapien, gravida eu commodo tempus, scelerisque non sapien. Sed finibus lacinia lorem, eget fringilla est ullamcorper quis.
+
+```
+sudo apt install software-properties-common curl
+
+sudo add-apt-repository ppa:ondrej/php
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+```
