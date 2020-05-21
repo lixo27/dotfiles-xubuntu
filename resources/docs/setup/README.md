@@ -11,6 +11,7 @@ Sed fringilla volutpat orci, in ultricies est eleifend et. Ut egestas placerat n
 * [A better desktop looking and feel](setup-desktop.md)
 * [Install Node.js](setup-nodejs.md)
 * [Install Apache](setup-apache.md)
+* [Install SQLite](setup-sqlite.md)
 * [Install MySQL](setup-mysql.md)
 * [Install PostgreSQL](setup-postgresql.md)
 * [Install PHP](setup-php.md)
