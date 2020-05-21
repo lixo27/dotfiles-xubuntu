@@ -4,11 +4,12 @@
 
 if [ -d "/home/develop/Vanille" ]; then
     alias vanille="/home/develop/Vanille"
-    alias vanille-code="vanille && cd Code/"
-    alias vanille-rep="vanille && cd Repositories/"
-    alias vanille-res="vanille && cd Resources/"
+    alias vanillecod="vanille && cd Code/"
+    alias vanillerep="vanille && cd Repositories/"
+    alias vanilleres="vanille && cd Resources/"
+    alias vanillesit="vanille && cd Sites/"
 fi
 
 if [ -d "/var/www/vanille.local" ]; then
-    alias vanille-www="cd /var/www/vanille.local"
+    alias vanillewww="cd /var/www/vanille.local"
 fi

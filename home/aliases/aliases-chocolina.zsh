@@ -4,11 +4,12 @@
 
 if [ -d "/home/develop/Chocolina" ]; then
     alias chocolina="/home/develop/Chocolina"
-    alias chocolina-code="chocolina && cd Code/"
-    alias chocolina-rep="chocolina && cd Repositories/"
-    alias chocolina-res="chocolina && cd Resources/"
+    alias chocolinacod="chocolina && cd Code/"
+    alias chocolinarep="chocolina && cd Repositories/"
+    alias chocolinares="chocolina && cd Resources/"
+    alias chocolinasit="chocolina && cd Sites/"
 fi
 
 if [ -d "/var/www/chocolina.local" ]; then
-    alias chocolina-www="cd /var/www/chocolina.local"
+    alias chocolinawww="cd /var/www/chocolina.local"
 fi

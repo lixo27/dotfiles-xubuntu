@@ -4,11 +4,12 @@
 
 if [ -d "/home/develop/Noel" ]; then
     alias noel="/home/develop/Noel"
-    alias noel-code="noel && cd Code/"
-    alias noel-rep="noel && cd Repositories/"
-    alias noel-res="noel && cd Resources/"
+    alias noelcod="noel && cd Code/"
+    alias noelrep="noel && cd Repositories/"
+    alias noelres="noel && cd Resources/"
+    alias noelsit="noel && cd Sites/"
 fi
 
 if [ -d "/var/www/noel.local" ]; then
-    alias noel-www="cd /var/www/noel.local"
+    alias noelwww="cd /var/www/noel.local"
 fi
