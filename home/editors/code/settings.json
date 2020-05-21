@@ -1,0 +1,10 @@
+{
+    "workbench.statusBar.visible": false,
+    "workbench.colorTheme": "Darcula",
+    "workbench.activityBar.visible": false,
+    "explorer.openEditors.visible": 0,
+    "editor.minimap.enabled": false,
+    "workbench.tree.indent": 16,
+    "workbench.editor.showTabs": false,
+    "workbench.startupEditor": "none"
+}
