@@ -1,6 +1,6 @@
 # Install MySQL
 
-Proin sagittis mauris nec interdum dapibus. Ut felis sapien, gravida eu commodo tempus, scelerisque non sapien. Sed finibus lacinia lorem, eget fringilla est ullamcorper quis.
+Sed fringilla volutpat orci, in ultricies est eleifend et. Ut egestas placerat nulla, vitae sodales leo faucibus id. Integer rutrum fermentum porta. Donec commodo augue quis rhoncus interdum. In non vestibulum tellus.
 
 ```
 sudo apt update
@@ -16,8 +16,16 @@ Proin sagittis mauris nec interdum dapibus. Ut felis sapien, gravida eu commodo 
 sudo mysql
 ```
 
+## How to create user accounts
+
+Proin sagittis mauris nec interdum dapibus. Ut felis sapien, gravida eu commodo tempus, scelerisque non sapien. Sed finibus lacinia lorem, eget fringilla est ullamcorper quis.
+
+```
+create user 'mog'@'localhost' identified by 'mog@secret';
+```
+
 Aenean ut iaculis sem. Sed consectetur odio sit amet dictum auctor.
 
 ```
-sudo mysql -p
+grant all privileges on *.* to 'mog'@'localhost';
 ```
