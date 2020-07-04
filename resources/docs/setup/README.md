@@ -15,3 +15,4 @@ Sed fringilla volutpat orci, in ultricies est eleifend et. Ut egestas placerat n
 * [Install MySQL](setup-mysql.md)
 * [Install PostgreSQL](setup-postgresql.md)
 * [Install PHP](setup-php.md)
+* [Install Python](setup-python.md)

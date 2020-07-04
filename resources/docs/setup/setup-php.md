@@ -12,7 +12,8 @@ Aenean ut iaculis sem. Sed consectetur odio sit amet dictum auctor.
 
 ```
 sudo apt update
-sudo apt install php7.4-zip php7.4-mbstring php7.4-xml php7.4-intl php7.4-curl
+sudo apt install php-imagick
+sudo apt install php7.4-zip php7.4-mbstring php7.4-xml php7.4-intl php7.4-curl php7.4-gd
 ```
 
 ## Install Composer

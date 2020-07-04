@@ -7,8 +7,12 @@ Proin sagittis mauris nec interdum dapibus. Ut felis sapien, gravida eu commodo 
 ## -- my local hosts    # begin
 ## ================================================================
 
-127.0.0.1	adminer.local
+127.0.0.1	chocolina.local
+127.0.0.1	fang.local
+127.0.0.1	hope.local
 127.0.0.1	mog.local
+127.0.0.1	noel.local
+127.0.0.1	vanille.local
 
 ## ================================================================
 ## -- my local hosts    # end

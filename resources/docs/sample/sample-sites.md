@@ -5,31 +5,6 @@ Proin sagittis mauris nec interdum dapibus. Ut felis sapien, gravida eu commodo 
 ```
 <VirtualHost *:80>
 
-	ServerName adminer.local
-
-	ServerAdmin webmaster@localhost
-	DocumentRoot /var/www/adminer.local
-
-	AllowEncodedSlashes On
-	<Directory /var/www/adminer.local>
-		Options +Indexes +FollowSymLinks
-		DirectoryIndex index.php index.html
-		Order allow,deny
-		Allow from all
-		AllowOverride All
-	</Directory>
-
-	ErrorLog ${APACHE_LOG_DIR}/error.log
-	CustomLog ${APACHE_LOG_DIR}/access.log combined
-
-</VirtualHost>
-```
-
-Aenean ut iaculis sem. Sed consectetur odio sit amet dictum auctor.
-
-```
-<VirtualHost *:80>
-
 	ServerName mog.local
 
 	ServerAdmin webmaster@localhost

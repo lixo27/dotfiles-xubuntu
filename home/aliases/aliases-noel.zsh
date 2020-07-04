@@ -7,7 +7,6 @@ if [ -d "/home/develop/Noel" ]; then
     alias noelcod="noel && cd Code/"
     alias noelrep="noel && cd Repositories/"
     alias noelres="noel && cd Resources/"
-    alias noelsit="noel && cd Sites/"
 fi
 
 if [ -d "/var/www/noel.local" ]; then

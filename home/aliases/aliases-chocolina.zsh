@@ -7,7 +7,6 @@ if [ -d "/home/develop/Chocolina" ]; then
     alias chocolinacod="chocolina && cd Code/"
     alias chocolinarep="chocolina && cd Repositories/"
     alias chocolinares="chocolina && cd Resources/"
-    alias chocolinasit="chocolina && cd Sites/"
 fi
 
 if [ -d "/var/www/chocolina.local" ]; then
