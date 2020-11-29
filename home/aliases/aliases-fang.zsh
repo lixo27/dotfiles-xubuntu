@@ -2,6 +2,10 @@
 
 # -- fang ----------------------------------------------
 
+if [ ! -d "/home/develop/Fang" ]; then
+    alias fang="mkdir -p /home/develop/Fang/{Code,Repositories,Resources}"
+fi
+
 if [ -d "/home/develop/Fang" ]; then
     alias fang="/home/develop/Fang"
     alias fangcod="fang && cd Code/"

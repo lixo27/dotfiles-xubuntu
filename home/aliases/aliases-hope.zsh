@@ -2,6 +2,10 @@
 
 # -- hope ---------------------------------------------
 
+if [ ! -d "/home/develop/Hope" ]; then
+    alias hope="mkdir -p /home/develop/Hope/{Code,Repositories,Resources}"
+fi
+
 if [ -d "/home/develop/Hope" ]; then
     alias hope="/home/develop/Hope"
     alias hopecod="hope && cd Code/"

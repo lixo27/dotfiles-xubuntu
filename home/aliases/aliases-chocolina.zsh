@@ -2,6 +2,10 @@
 
 # -- chocolina ----------------------------------------------
 
+if [ ! -d "/home/develop/Chocolina" ]; then
+    alias chocolina="mkdir -p /home/develop/Chocolina/{Code,Repositories,Resources}"
+fi
+
 if [ -d "/home/develop/Chocolina" ]; then
     alias chocolina="/home/develop/Chocolina"
     alias chocolinacod="chocolina && cd Code/"

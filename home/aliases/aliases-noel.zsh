@@ -2,6 +2,10 @@
 
 # -- noel ----------------------------------------------
 
+if [ ! -d "/home/develop/Noel" ]; then
+    alias noel="mkdir -p /home/develop/Noel/{Code,Repositories,Resources}"
+fi
+
 if [ -d "/home/develop/Noel" ]; then
     alias noel="/home/develop/Noel"
     alias noelcod="noel && cd Code/"
