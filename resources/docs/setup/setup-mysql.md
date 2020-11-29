@@ -24,8 +24,10 @@ Proin sagittis mauris nec interdum dapibus. Ut felis sapien, gravida eu commodo 
 create user 'chocolina'@'localhost' identified by 'chocolina@secret';
 create user 'fang'@'localhost' identified by 'fang@secret';
 create user 'hope'@'localhost' identified by 'hope@secret';
+create user 'lumina'@'localhost' identified by 'lumina@secret';
 create user 'mog'@'localhost' identified by 'mog@secret';
 create user 'noel'@'localhost' identified by 'noel@secret';
+create user 'serah'@'localhost' identified by 'serah@secret';
 create user 'vanille'@'localhost' identified by 'vanille@secret';
 ```
 
@@ -35,7 +37,9 @@ Aenean ut iaculis sem. Sed consectetur odio sit amet dictum auctor.
 grant all privileges on *.* to 'chocolina'@'localhost';
 grant all privileges on *.* to 'fang'@'localhost';
 grant all privileges on *.* to 'hope'@'localhost';
+grant all privileges on *.* to 'lumina'@'localhost';
 grant all privileges on *.* to 'mog'@'localhost';
 grant all privileges on *.* to 'noel'@'localhost';
+grant all privileges on *.* to 'serah'@'localhost';
 grant all privileges on *.* to 'vanille'@'localhost';
 ```

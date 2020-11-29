@@ -10,8 +10,10 @@ Proin sagittis mauris nec interdum dapibus. Ut felis sapien, gravida eu commodo 
 127.0.0.1	chocolina.local
 127.0.0.1	fang.local
 127.0.0.1	hope.local
+127.0.0.1	lumina.local
 127.0.0.1	mog.local
 127.0.0.1	noel.local
+127.0.0.1	serah.local
 127.0.0.1	vanille.local
 
 ## ================================================================
