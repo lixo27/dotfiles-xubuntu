@@ -2,6 +2,7 @@
 
 # -- includes -----------------------------------------------
 #source "${HOME}/.dotfiles/home/aliases/aliases-chocolina.zsh"
+source "${HOME}/.dotfiles/home/aliases/aliases-develop.zsh"
 #source "${HOME}/.dotfiles/home/aliases/aliases-fang.zsh"
 #source "${HOME}/.dotfiles/home/aliases/aliases-hope.zsh"
 #source "${HOME}/.dotfiles/home/aliases/aliases-lumina.zsh"
