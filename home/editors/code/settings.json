@@ -1,10 +1,26 @@
 {
-    "workbench.statusBar.visible": false,
-    "workbench.colorTheme": "Darcula",
-    "workbench.activityBar.visible": false,
-    "explorer.openEditors.visible": 0,
+    // EDITOR
+    "editor.fontSize": 16,
+    "editor.fontFamily": "'Ubuntu Mono', 'monospace', monospace",
+    "editor.renderWhitespace": "none",
     "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+
+    // WORKBENCH
     "workbench.tree.indent": 16,
-    "workbench.editor.showTabs": false,
-    "workbench.startupEditor": "none"
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.statusBar.visible": false,
+
+    // OTHER
+    "breadcrumbs.enabled": false,
+    "files.insertFinalNewline": true,
+    "window.zoomLevel": 1,
+
+    // PRETTIER
+    "prettier.printWidth": 240,
+    "prettier.singleQuote": true,
+    "prettier.useTabs": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
