@@ -2,6 +2,7 @@
     // EDITOR
     "editor.fontSize": 16,
     "editor.lineHeight": 23,
+    "editor.letterSpacing": 0.5,
     "editor.fontFamily": "'Ubuntu Mono', 'monospace', monospace",
     "editor.renderWhitespace": "none",
     "editor.minimap.enabled": false,
@@ -9,13 +10,10 @@
 
     // WORKBENCH
     "workbench.tree.indent": 16,
-    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.iconTheme": "vs-seti",
+    "workbench.colorTheme": "Shades of Purple",
     "workbench.statusBar.visible": false,
-
-    // OTHER
-    "breadcrumbs.enabled": false,
-    "files.insertFinalNewline": true,
-    "window.zoomLevel": 1,
+    "workbench.settings.useSplitJSON": true,
 
     // PRETTIER
     "prettier.printWidth": 240,
@@ -23,5 +21,10 @@
     "prettier.useTabs": true,
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    
+    // OTHER
+    "breadcrumbs.enabled": false,
+    "files.insertFinalNewline": true,
+    "window.zoomLevel": 1,
 }
