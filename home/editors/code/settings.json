@@ -1,8 +1,8 @@
 {
     // EDITOR
-    "editor.fontSize": 16,
-    "editor.lineHeight": 23,
-    "editor.letterSpacing": 0.5,
+    "editor.fontSize": 15,
+    "editor.lineHeight": 21,
+    "editor.letterSpacing": 0.7,
     "editor.fontFamily": "'Ubuntu Mono', 'monospace', monospace",
     "editor.renderWhitespace": "none",
     "editor.minimap.enabled": false,
@@ -26,5 +26,5 @@
     // OTHER
     "breadcrumbs.enabled": false,
     "files.insertFinalNewline": true,
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 0.3,
 }
