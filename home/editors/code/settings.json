@@ -1,6 +1,7 @@
 {
     // EDITOR
     "editor.fontSize": 16,
+    "editor.lineHeight": 23,
     "editor.fontFamily": "'Ubuntu Mono', 'monospace', monospace",
     "editor.renderWhitespace": "none",
     "editor.minimap.enabled": false,
