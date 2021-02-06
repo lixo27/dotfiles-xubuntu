@@ -22,9 +22,17 @@
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     
     // OTHER
     "breadcrumbs.enabled": false,
+    "explorer.confirmDelete": false,
     "files.insertFinalNewline": true,
     "window.zoomLevel": 0.3,
+
+    // SHAME
+    "workbench.editor.showTabs": true,
+
 }
